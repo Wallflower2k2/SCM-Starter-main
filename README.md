@@ -3,12 +3,19 @@ In this project I have created 2-3 functions in solidity and then shown the valu
 
 # Features:
 . Check the user's name
+
 . Connect to MetaMask wallet
+
 . Display user's account address
+
 . View user's account balance
+
 . View Wallet Balance
+
 . Deposit ETH into the ATM
+
 . Withdraw ETH from the ATM
+
 Please install Metamask before running the code in your system.
 # Getting Started
 After cloning the github, you will want to do the following to get the code running on your computer.
