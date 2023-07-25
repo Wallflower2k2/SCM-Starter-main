@@ -39,7 +39,7 @@ On the Frontend window , you will be able to interact with the components and de
 Gauri Kaushal (gaurikaushal18@gmail.com)
 
 # License
-This project is licensed under the MIT License
+This project is unlicensed
 
 
 
