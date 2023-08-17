@@ -1,14 +1,16 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.16;
 
 //import "hardhat/console.sol";
 
 contract Assessment {
     address payable public owner;
     uint256 public balance;
-
+    // uint public b=5;
     event Deposit(uint256 amount);
     event Withdraw(uint256 amount);
+    event ShowImage(uint _amount);
+
 
     constructor(uint initBalance) payable {
         owner = payable(msg.sender);
@@ -23,7 +25,7 @@ contract Assessment {
         uint _previousBalance = balance;
 
         // make sure this is the owner
-        require(msg.sender == owner, "You are not the owner of this account");
+        // require(msg.sender == owner, "You are not the owner of this account");
 
         // perform transaction
         balance += _amount;
@@ -39,7 +41,7 @@ contract Assessment {
     error InsufficientBalance(uint256 balance, uint256 withdrawAmount);
 
     function withdraw(uint256 _withdrawAmount) public {
-        require(msg.sender == owner, "You are not the owner of this account");
+        // require(msg.sender == owner, "You are not the owner of this account");
         uint _previousBalance = balance;
         if (balance < _withdrawAmount) {
             revert InsufficientBalance({
@@ -57,4 +59,24 @@ contract Assessment {
         // emit the event
         emit Withdraw(_withdrawAmount);
     }
+
+    function andOperation(uint a, uint b) public pure returns(uint){
+        
+        return a&b;
+    }
+
+    
+    function xorOperation(uint a, uint b) public pure returns(uint){
+        return a^b;
+        
+        
+    }
+
+   
+    function orOperation(uint a, uint b) public pure returns(uint){
+        return a|b;
+    }
+
+    
+    
 }
