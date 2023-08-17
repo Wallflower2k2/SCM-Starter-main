@@ -37,7 +37,7 @@ On the Frontend window , you will be able to interact with the components and de
 **Withdraw**
 -- Helps to withdraw ETH from the metamask wallet
 
-**Input**
+**Calculator**
 -- Input two integers A and B to perform bit manipulations(AND,OR and XOR)
 
 # Authors
