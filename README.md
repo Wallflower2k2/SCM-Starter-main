@@ -1,5 +1,5 @@
-# Function Frontend
-In this project I have created 2-3 functions in solidity and then shown the values of those functions using frontend.
+# Description
+So in this project I have created a calculator performing bit operations : AND , OR , XOR, so I have created three functions related to bit manipulation.
 
 # Features:
 . Check the user's name
@@ -15,6 +15,8 @@ In this project I have created 2-3 functions in solidity and then shown the valu
 . Deposit ETH into the ATM
 
 . Withdraw ETH from the ATM
+
+. A calculator to perform bit manipulation (AND,OR,XOR)
 
 Please install Metamask before running the code in your system.
 # Getting Started
@@ -34,6 +36,9 @@ On the Frontend window , you will be able to interact with the components and de
 
 **Withdraw**
 -- Helps to withdraw ETH from the metamask wallet
+
+**Input**
+-- Input two integers A and B to perform bit manipulations(AND,OR and XOR)
 
 # Authors
 Gauri Kaushal (gaurikaushal18@gmail.com)
